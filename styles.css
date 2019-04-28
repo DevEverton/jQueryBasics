@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  margin: 30px;
+}
+
+h1, h2 {
+  margin-bottom: 30px;
+}
+
+h1 span {
+  color: #aebeef;
+}
+p{
+  color: #aaaaaa;
+}
+
+h3 {
+  color: grey;
+}
+
+label{
+  margin-top: 30px;
+  display: block;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  letter-spacing: 2px;
+}
+
+input, textarea {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #cdcfcf;
+    margin-top:5px;
+    padding: 10px;
+    color: grey;
+    background-color: #fedfb3;
+}
+
+#restaurantReviewInput {
+  height: 100px;
+}
+
+button {
+  background: #aebeef;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-shadow: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+ul {
+  padding-left: 0; 
+  list-style-type: none;
+}
+
+.section {
+  float: left;
+  width: 48%;
+}
+
+.review {
+  padding-bottom: 15px;
+  width: auto;
+  margin-right: 15px;
+  background-color: #beefed;
+  border-radius: 10px;
+}
+.review, #flashMessage {
+  display: none;
+}
+
+.review h3 {
+  padding-top: 10px
+
+}
+
+.review p {
+  padding-bottom: 10px
+  color: #aaaaaa;
+}
+
+#flashMessage {
+  padding: 10px;
+  background: #aebeef;
+  color: white;
+}
